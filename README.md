@@ -1,4 +1,10 @@
 # CaseStudy
+## Thought Process
+- From the raw notebook I took the best model LightGBM
+- Saved the model weight under ./weights
+- Created the strealit app for UI for inference
+- Dockerized the git using DockerFile
+
 
 
 ## Aprroaches
