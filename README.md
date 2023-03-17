@@ -10,5 +10,7 @@
 - Run -> docker run --rm -d -p 8000:8080 --name ContainerName ImageName
 
 ### OR
-- Pull my image from docker hub -> "docker pull vischauh/casestudy"
+- Pull my image from docker hub 
+  docker pull vischauh/casestudy
 - Run the container
+  docker run -d --name case --rm -p 8000:8080 vischauh/casestudy
