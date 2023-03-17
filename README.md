@@ -1,4 +1,4 @@
-# AdidasCaseStudy
+# CaseStudy
 
 ## Thought Process
 - Observing the raw notebook and taking best model -> LightGBM
