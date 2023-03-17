@@ -3,11 +3,12 @@
 
 ## Aprroaches
 ### Approach 1
+Markup:
 - Clone the repo
 - Build Image
--- docker build -t ImageName .
+  - docker build -t ImageName .
 - Run the Container [8080 port for streamlit]
--- docker run --rm -d -p 8000:8080 --name ContainerName ImageName
+  - docker run --rm -d -p 8000:8080 --name ContainerName ImageName
 - Streamlit UI for inference
 ![Image](https://github.com/vishal0143/AdidasCaseStudy/blob/main/imgs/ui.png "StreamLit UI")
 
