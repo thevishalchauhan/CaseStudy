@@ -7,7 +7,6 @@ max_feature_idx=15
 objective=binary sigmoid:1
 feature_names=Age RoomService FoodCourt ShoppingMall Spa VRDeck HomePlanet_Earth HomePlanet_Europa HomePlanet_Mars CryoSleep_False CryoSleep_True Destination_55_Cancri_e Destination_PSO_J318.5-22 Destination_TRAPPIST-1e VIP_False VIP_True
 feature_infos=[0:79] [0:14327] [0:29813] [0:23492] [0:15586] [0:24133] [0:1] [0:1] [0:1] [0:1] [0:1] [0:1] [0:1] [0:1] [0:1] [0:1]
-tree_sizes=3354 3358 3348 3345 3363 3358 3375 3355 3359 3360 3362 3360 3357 3376 3373 3369 3378 3372 3364 3362 3368 3366 3386 3368 3354 3374 3352 3352 3355 3360 3364 3357 3375 3372 3360 3355 3376 3345 3355 3363 3354 3350 3359 3361 3346 3358 3351 3347 3387 3352 3364 3350 3363 3359 3342 3365 3350 3345 3388 3419 3374 3380 3368 2543 2640 554 3393 356
 
 Tree=0
 num_leaves=31
