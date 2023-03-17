@@ -1,15 +1,17 @@
 # CaseStudy
 
-## Thought Process
-- Observing the raw notebook and taking best model -> LightGBM
-- Stored the weights under /weight
-- Created a streamlit application for inference
-![Image](https://github.com/vishal0143/AdidasCaseStudy/blob/main/imgs/ui.png "StreamLit UI")
-- Dockerized the git using Docker File
-- Build -> docker build -t ImageName .
-- Run -> docker run --rm -d -p 8000:8080 --name ContainerName ImageName
 
-### OR
+## Aprroaches
+### Approach 1
+- Clone the repo
+- Build Image
+  docker build -t ImageName .
+- Run the Container [8080 port for streamlit]
+  docker run --rm -d -p 8000:8080 --name ContainerName ImageName
+- Streamlit UI for inference
+![Image](https://github.com/vishal0143/AdidasCaseStudy/blob/main/imgs/ui.png "StreamLit UI")
+
+### Approach 2
 - Pull my image from docker hub 
   docker pull vischauh/casestudy
 - Run the container
