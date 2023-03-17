@@ -3,7 +3,6 @@
 
 ## Aprroaches
 ### Approach 1
-Markup:
 - Clone the repo
 - Build Image
   - docker build -t ImageName .
@@ -14,6 +13,6 @@ Markup:
 
 ### Approach 2
 - Pull my image from docker hub 
--- docker pull vischauh/casestudy
+  - docker pull vischauh/casestudy
 - Run the container
--- docker run -d --name case --rm -p 8000:8080 vischauh/casestudy
+  - docker run -d --name case --rm -p 8000:8080 vischauh/casestudy
